@@ -8,9 +8,7 @@ dt > span {
     color: blue;  
 }
 
-dt > (< DEV >) {
-    color: blue;
-}
+
 
 h1 {
     text-align: center;
