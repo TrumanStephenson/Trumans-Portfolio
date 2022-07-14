@@ -1,0 +1,17 @@
+:root {
+    --header: pink;
+}
+
+header > h1 {
+    box-sizing: border-box;
+    color: pink;
+        
+    
+}
+
+header > h1 > span {
+    box-sizing: border-box;
+    color: black;
+        
+    
+}
