@@ -3,12 +3,29 @@ header > h1 {
     color: rgb(25, 25, 207);  
 }
 
-header > h1 > span {
+dt > span {
     box-sizing: border-box;
-    color: black;  
+    color: blue;  
 }
+
+dt > (< DEV >) {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: black;
+}
+
+nav > ul > li {
+    text-align: center;
+}
+
+
 
 .parallax {
     margin-block-start: auto;
-    
+
 }
+
