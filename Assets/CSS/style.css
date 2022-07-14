@@ -1,17 +1,14 @@
-:root {
-    --header: pink;
-}
-
 header > h1 {
     box-sizing: border-box;
-    color: pink;
-        
-    
+    color: rgb(25, 25, 207);  
 }
 
 header > h1 > span {
     box-sizing: border-box;
-    color: black;
-        
+    color: black;  
+}
+
+.parallax {
+    margin-block-start: auto;
     
 }
