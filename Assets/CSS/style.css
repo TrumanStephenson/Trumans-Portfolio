@@ -1,29 +1,23 @@
 header > h1 {
     box-sizing: border-box;
-    color: rgb(25, 25, 207);  
-}
+    color: rgb(25, 25, 207); }
 
+/* Just because I have the coding power to do so.
+    Consider it a Signature of my page. */
 dt > span {
     box-sizing: border-box;
-    color: blue;  
-}
+    color: blue; }
 
-
-
-h1 {
-    text-align: center;
+h1 {text-align: center;
     text-decoration: underline;
-    text-decoration: black;
-}
+    text-decoration: black; }
 
 nav > ul > li {
-    text-align: center;
-}
+    text-align: center; }
 
 
 
 .parallax {
-    margin-block-start: auto;
+    margin-block-start: auto; }
 
-}
-
+img
