@@ -5,18 +5,23 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.body {
+    margin: 0;
+    padding: 0;
+}
+
 .topbar {
     width: 500px;
     height: 100000px;
     background: rgb(21, 128, 0);
-
 }
 
+/* This is the beginning of my side-navigation adventure! 
+    (about 7hrs to this line of code alone) */
 .header {
     width: 100%;
     height: 100vh;
     background: rgb(70, 0, 128);
-    ;
 }
 
 .side-nav {
@@ -70,26 +75,13 @@
     transition: 0.3s;
 }
 
-.nav-links li:hover ~ .active {
-    display: block;
-}
+.nav-links li:hover ~ .active {display: block;}
 
-
-.nav-links li:nth-child(1):hover ~ .active{
-    top: .01%
-}
-.nav-links li:nth-child(2):hover ~ .active{
-    top: 20%
-}
-.nav-links li:nth-child(3):hover ~ .active{
-    top: 39.5%
-}
-.nav-links li:nth-child(4):hover ~ .active{
-    top: 59.8%;
-}
-.nav-links li:nth-child(5):hover ~ .active{
-    top: 81%
-}
+.nav-links li:nth-child(1):hover ~ .active{top: .01%}
+.nav-links li:nth-child(2):hover ~ .active{top: 20%}
+.nav-links li:nth-child(3):hover ~ .active{top: 39.5%}
+.nav-links li:nth-child(4):hover ~ .active{top: 59.8%;}
+.nav-links li:nth-child(5):hover ~ .active{top: 81%}
 /* This concludes the invisible mouse hovering feature */
 
 
@@ -100,22 +92,49 @@
 
 
 @media only screen and (max-width: 600px) {
-    .side-nav{
-        width: 110px;
-    }
-    .tree-logo{
-        display: block;
-    }
-    .face{
-        display: none;
-    }
-    .nav-links li a i p {
-        display: none;
-    }
-    .nav-links li a i {
-        margin: 0;
-    }
-    .nav-links li a {
-        justify-content: center;
-    }
+    .side-nav{width: 110px;}
+    .tree-logo{display: block;}
+    .face {display: none;}
+    .nav-links li p {display: none;}
+    .nav-links li i {margin: 0;}
+    .nav-links li a {justify-content: center;}
+}
+
+/* Starting on the Container and the pictures located inside of them */
+
+.container {
+    position: fixed;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+.container .About-Container {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .Work-Container {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .Album-Container {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
 }
