@@ -92,17 +92,18 @@
 }
 /* This concludes the invisible mouse hovering feature */
 
-.tree {
+
+.tree-logo{
     display: none;
     width: 45px;
 }
 
-/*
+
 @media only screen and (max-width: 600px) {
     .side-nav{
         width: 110px;
     }
-    .tree{
+    .tree-logo{
         display: block;
     }
     .face{
@@ -118,4 +119,3 @@
         justify-content: center;
     }
 }
-*/
