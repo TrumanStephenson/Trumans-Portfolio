@@ -72,7 +72,7 @@
 /* This begins the extra feature to create a mouse hover bar, for each nav link */
 .nav-links li:hover a {
     color: #2f8bfc;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .nav-links li:hover ~ .active {display: block;}
@@ -82,6 +82,7 @@
 .nav-links li:nth-child(3):hover ~ .active{top: 39.5%}
 .nav-links li:nth-child(4):hover ~ .active{top: 59.8%;}
 .nav-links li:nth-child(5):hover ~ .active{top: 81%}
+
 /* This concludes the invisible mouse hovering feature */
 
 
